@@ -106,3 +106,5 @@ require (
 	gopkg.in/stretchr/testify.v1 v1.2.2 // indirect
 	vitess.io/vitess v2.1.1+incompatible
 )
+
+go 1.13
