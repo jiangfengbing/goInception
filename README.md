@@ -28,7 +28,7 @@ goInception是一个集审核、执行、备份及生成回滚语句于一身的
 ***go version 1.12 (go mod)***
 
 ```bash
-git clone https://github.com/hanchuanchuan/goInception.git
+git clone https://github.com/jiangfengbing/goInception.git
 cd goInception
 make parser
 go build -o goInception tidb-server/main.go
@@ -45,7 +45,7 @@ go build -o goInception tidb-server/main.go
 
 #### Docker镜像
 ```
-docker pull hanchuanchuan/goinception
+docker pull kubemates/go-inception
 ```
 
 #### 关联SQL审核平台 `已集成goInception`
